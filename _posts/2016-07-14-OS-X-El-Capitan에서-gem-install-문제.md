@@ -21,7 +21,7 @@ _(참고로 OS X El Capitan 기준으로 맥북에는 RubyGems 2.0.14.1이 이�
 전에도 한 번 El Capitan에서 Homebrew를 설치하려다 비슷한 권한 문제를 경험한 적이 있어 '필시 이것은 El Capitan부터 바뀐 맥의 정책 문제이다' 싶어 재빨리 구글에 검색해봤더니 역시나 그런 문제였다. 그래서 스택오버플로의 [본 답변](http://stackoverflow.com/a/32892222){:target="_blank"}처럼 설치 경로를 `/usr/local/bin`으로 지정해 설치했다. **왜냐하면 나는 이미 Homebrew를 설치했으니까!**
 
 ![Installing gem](/media/images/2016-07-14-01.png)
-_내친 김에 Jekyll도 설치했다_
+_설치가 잘 되고 있음. 내친 김에 Jekyll도 설치했다_
 
 gem을 어떻게 설치할 것인가에 대해 다른 옵션들도 존재하는 것 같다. [본 링크](http://stackoverflow.com/q/31972968){:target="_blank"}를 참조하면 몇 가지 대안을 얻을 수 있을지도 모른다.
 
