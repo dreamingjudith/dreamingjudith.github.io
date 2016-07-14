@@ -27,4 +27,4 @@ gem을 어떻게 설치할 것인가에 대해 다른 옵션들도 존재하는 
 
 ---
 [^1]: Homebrew는 일종의 맥을 위한 패키지 관리자 같은 거라고 한다. 데비안 계열 리눅스에서 apt-get과 비슷한 거라고나 할까?
-[^2]: 왜 그런지 모르겠으나 사이트에서 알려주는 `gem update --system` 이라는 명령어가 `ERROR:  Invalid option: --update.  See 'gem --help'.`이라는 에러 메시지만 돌려주기 때문이었다.
+[^2]: <del>왜 그런지 모르겠으나 사이트에서 알려주는 `gem update --system` 이라는 명령어가 `ERROR:  Invalid option: --update.  See 'gem --help'.`이라는 에러 메시지만 돌려주기 때문이었다.</del> [2016-07-14] 이제 보니 그냥 내가 오타낸 거였다. 어휴 바보.
