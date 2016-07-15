@@ -2,10 +2,12 @@
 layout: post
 title: "OS X El Capitan에서 gem install 문제"
 date: 2016-07-14 19:02:58 +0900
+published:	false
 categories: setup ruby gem
 ---
 
 [2016-07-15] 확인해보니 아무래도 gem 패키지가 꼬인 것 같다. 패키지 설치 위치를 /usr/local/bin으로 잡아도 애초에 Ruby 자체가 맥에 원래 깔려있는 거다 보니 `require 'mongo'` 등을 할 때 /usr/local/bin에서 못 찾고 엄한 데로 가는 것 같다. 이건 어떻게 해결해야 하지 ㅠㅠ
+---
 
 휴가라서 요즘 **MongoDB in Action**이라는 책을 정독하고 있다. 한 3장까지 읽으니 예제로 Ruby 드라이버를 활용해서 뭘 어쩌고저쩌고 하라길래 본격적으로 맥북에 개발환경을 갖추자고 마음을 먹었다. 책에서 요구하는 건 MongoDB의 Ruby 드라이버 뿐이긴 하지만 이를 설치하기 위해선 RubyGems가 있어야 했다.
 
