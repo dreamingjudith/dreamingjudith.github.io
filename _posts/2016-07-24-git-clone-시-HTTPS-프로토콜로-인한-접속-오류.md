@@ -19,4 +19,4 @@ git config --global http.sslVerify=false
 export GIT_SSL_NO_VERIFY=1
 ```
 
-참고로 이 환경변수는 http.sslVerify의 옵션을 오버라이딩 한다. 자세한 내용은 [이 링크](https://git-scm.com/docs/git-config){:target="_blank"}에서 **http.sslVerify** 항목을 찾아보면 된다.
+참고로 이 환경변수는 http.sslVerify의 옵션을 오버라이딩 한다. 자세한 내용은 [이 링크](https://git-scm.com/docs/git-config){:target="\_blank"}에서 **http.sslVerify** 항목을 찾아보면 된다.
