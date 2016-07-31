@@ -2,7 +2,7 @@
 layout: post
 title: "Installing PyQt4 in Mac OS X"
 date: 2016-07-29 22:01:02 +0900
-categories: setup ruby rbenv
+categories: setup pyqt
 ---
 
 우리집 맥북에 PyQt4를 설치할 일이 생겼다. 이전에 한 번 리눅스 환경에서 설치할 일이 있었는데 맥에서는 처음이었다. 그렇지만 전혀 어렵지 않았다.
