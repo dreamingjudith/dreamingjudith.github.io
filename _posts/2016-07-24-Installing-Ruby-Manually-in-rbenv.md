@@ -2,7 +2,8 @@
 layout: post
 title: "Installing Ruby Manually in rbenv"
 date: 2016-07-24 15:26:17 +0900
-categories: setup ruby rbenv
+categories: ruby
+tags: rbenv
 ---
 
 회사에서 rbenv를 쓰려고 했더니만 애최 rbenv 자체가 GitHub 소스를 끌어와서 설치하는 방식이다보니 `git clone`부터 막혔다. 그래도 앞선 글에서 서술했던 것처럼 일단 해결을 했는데 그 다음 rbenv install을 하는 게 문제였다. 여기서도 SSL 검증 때문에 막혔다. 문제는 아무리 회피 방법을 찾아도 안 됐다는 것.

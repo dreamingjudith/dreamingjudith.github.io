@@ -2,7 +2,8 @@
 layout: post
 title: "git clone 시 HTTPS 프로토콜로 인한 접속 오류"
 date: 2016-07-24 15:18:49 +0900
-categories: git config
+categories: git
+tags: config
 ---
 
 회사에서는 프록시 서버를 쓰는데 간혹 HTTPS 프로토콜로 연결을 시도하는 것들이 안 될 때가 있다. 정확하게 말하자면 될 때보다 안 될 때가 훨씬 더 많다. 이를테면 GitHub에서 소스 코드를 땡겨오기 위해 `git clone`을 쓸 때라던가.
