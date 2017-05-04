@@ -8,5 +8,5 @@ permalink: /about/
 
 이전에 사용하던 블로그 목록입니다. 포스트는 천천히 옮겨올 예정입니다.
 
-- [Tistory](http://deathmerai.tistory.com){:target="_blank"}
-- [Tumblr](http://tomouke.tumblr.com){:target="_blank"}
+- [Tistory](http://deathmerai.tistory.com){:target='_blank_'}
+- [Tumblr](http://tomouke.tumblr.com){:target='_blank_'}
