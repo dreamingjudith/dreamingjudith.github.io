@@ -10,7 +10,7 @@ tags: [python, anaconda, matplotlib]
 
 가벼운 마음으로 `conda install matplotlib`를 터미널에 입력했는데 다음과 같은 출력이 나왔다.
 
-```
+```bash
 judith@judith-mate:~$ conda install matplotlib
 Fetching package metadata: ....
 Error: No packages found in current linux-armv7l channels matching: matplotlib
@@ -30,7 +30,7 @@ You may need to install the anaconda-client command line client with
 
 어지간히 짜증났다. 요새 사람들이 라즈베리 파이로 마인크래프트도 하던데 왜 ARMv7용으로는 matplotlib 패키지도 준비 안 해놨냐! 하지만 안 되면 돌아서라도 가면 된다. Anaconda에서는 조금 구리긴 하더라도 pip로도 모듈을 설치할 수 있다. 그래서 이번에는 `pip install matplotlib` 를 터미널에 입력해봤다.
 
-```
+```bash
 judith@judith-mate:~$ pip install matplotlib
 Collecting matplotlib
   Downloading matplotlib-2.0.1.tar.gz (53.8MB)
@@ -114,20 +114,19 @@ Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-mq
 
 그러니까 안 됐다는 거잖아 ^^...... 필수 설치요소인 freetype, png 패키지가 제대로 설치되지 않았다는 뜻인 것 같다. 그래서 바로 구글에 검색해봤다. 그리고 역시 모든 개발자들의 문제를 해결해주시는 스택오버플로 형님에서 [이런 답변](http://stackoverflow.com/a/20533455){:target='_blank_'}을 찾았다.
 
-
 > No. pip will not install system-level dependencies. This means pip will not install RPM(s) (Redhat based systems) or DEB(s) (Debian based systems).
 >
 > To install system dependencies you will need to use one of the following methods depending on your system.
 >
 > __Ubuntu/Debian:__
 >
-> ```
+> ```bash
 > apt-get install libfreetype6-dev
 > ```
 
 그래서 나도 재빠르게 터미널에 `sudo apt-get install libfreetype6-dev` 를 입력해봤다.
 
-```
+```bash
 judith@judith-mate:~$ sudo apt-get install libfreetype6-dev
 [sudo] password for judith:
 Reading package lists... Done
@@ -147,8 +146,6 @@ Do you want to continue? [Y/n]
 
 뭔가 같이 설치되는 패키지 중에 libpng12-dev 라는 게 있는 걸 봐서 이게 한 큐에 모든 것을 해결해줄 것 같아서 일단 설치를 진행했다. 그리고 나서 다시 `pip install matplotlib` 에 도전해봤더니 매끄럽게 설치가 완료됐다. ~~그냥 인터프리터에서 돌리려면 Qt와 같은 백엔드를 또 만져줘야 해서~~ Jupyter에서 돌려봤더니 그래프도 잘 나온다.
 
-![Sin Graph](/media/images/2017-05-04-01.png)
-
-_밑바닥부터 시작하는 딥러닝 책에서 예제로 나온 사인 그래프 그리기_
+![Sin Graph](/media/images/2017-05-04-01.png)*밑바닥부터 시작하는 딥러닝 책에서 예제로 나온 사인 그래프 그리기*
 
 이제 책으로 공부만 하면 될 것 같다. ~~이러고 여태까지 한 글자도 안 읽어봤다.~~

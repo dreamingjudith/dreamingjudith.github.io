@@ -17,7 +17,7 @@ tags: [python, anaconda]
 
 전체 명령어는 이렇게 되어 있다.
 
-```
+```powershell
 %windir%\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy ByPass -NoExit -Command "& 'C:\Users\Judith\miniconda3\shell\condabin\conda-hook.ps1' ; conda activate 'C:\Users\Judith\miniconda3' "
 ```
 

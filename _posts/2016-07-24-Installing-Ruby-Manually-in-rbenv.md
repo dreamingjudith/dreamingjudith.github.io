@@ -10,7 +10,7 @@ tags: [ruby, rbenv]
 
 그래서 원하는 Ruby 버전을 수동으로 설치하는 방법을 찾았다. [이 링크](http://passionatedevelopment.com/blog/2012/05/06/install-ruby-manually/){:target="\_blank"}를 참조해 설치를 할 수 있었다. 먼저 [Ruby 사이트](https://www.ruby-lang.org/ko/){:target="\_blank"}에서 소스코드를 다운받아 압축을 풀고, 다음과 같이 빌드했다.
 
-```
+```bash
 ./configure --prefix=/home/judith/.rbenv/versions/2.3.1
 make
 make install

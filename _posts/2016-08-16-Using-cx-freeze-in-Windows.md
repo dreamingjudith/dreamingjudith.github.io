@@ -8,7 +8,7 @@ tags: [python, cx-freeze]
 
 회사에서 업무 때문에 Python(이하 파이썬)으로 작성한 스크립트를 바이너리 파일 형태로 컴파일할 필요가 있었다. 그래서 이것저것 시도를 해보다 cx_freeze라는 모듈을 알게 됐다. 회사 컴퓨터는 윈도우다보니 당연히 명령 프롬프트에서 `pip install cx_freeze` 를 입력해 해당 모듈을 설치한 다음 `cxfreeze`라는 명령어로 실행을 시키는데
 
-```
+```bat
 'cxfreeze'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.
 ```
 
@@ -24,7 +24,7 @@ tags: [python, cx-freeze]
 
 그러면 이 셋 중 cxfreeze-postinstall을 가지고 cx_freeze를 설치한 직후 필요한 작업을 마무리해줘야 한다. 방법은 간단하다. 세 개 파일 모두 파이썬 스크립트라 파이썬으로 돌리기만 하면 된다.
 
-```
+```powershell
 python cxfreeze-postinstall
 ```
 

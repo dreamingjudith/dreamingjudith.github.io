@@ -20,11 +20,11 @@ _SIP은 보다시피 Linux, OS X source가 공통이다._
 ![PyQt](/media/images/2016-07-29-03.png)
 _하지만 PyQt는 그렇지 않다. 맨 밑에 있는 OS X source를 다운받자._
 
-**맥에 Homebrew가 설치되어 있다고 가정하고** (만약 Homebrew가 설치되어 있지 않다면 [이 링크](http://brew.sh){:target="\_blank"}로 들어가서 설치하면 된다.), 먼저 SIP을 설치하자. 다운받은 소스 코드를 `tar -xzvf sip-4.18.1.tar.gz` 와 같은 명령어로 압축해제를 한 다음 풀린 폴더로 이동한다.
+**맥에 Homebrew가 설치되어 있다고 가정하고,** (만약 Homebrew가 설치되어 있지 않다면 [이 링크](http://brew.sh){:target="\_blank"}로 들어가서 설치하면 된다.) 먼저 SIP을 설치하자. 다운받은 소스 코드를 `tar -xzvf sip-4.18.1.tar.gz` 와 같은 명령어로 압축해제를 한 다음 풀린 폴더로 이동한다.
 
 그 다음 아래의 명령어들을 차례대로 실행하면 된다.
 
-```
+```bash
 python configure.py
 make
 make install
@@ -32,7 +32,7 @@ make install
 
 이걸로 SIP은 설치됐다. 그 다음은 PyQt4 차례다. PyQt의 경우 시스템에 Qt가 먼저 설치되어 있어야 한다. 그래야 configure를 할 때 qmake를 참고해서 설치한다. Homebrew를 이용해 Qt를 설치하는 과정까지 포함해서 아래의 명령어들을 차례대로 실행한다.
 
-```
+```bash
 brew install qt
 python configure.py -q /usr/local/bin/qmake
 make
