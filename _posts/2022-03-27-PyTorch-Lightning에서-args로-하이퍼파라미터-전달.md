@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "PyTorch-Lightning 1.5에서 args로 하이퍼파라미터 전달"
-categories: python
-tags: pytorch-lightning deeplearning
+categories: [programming, python]
+tags: [python, pytorch-lightning, deep-learning]
 ---
 
 재작년(...) 사내 양성과정의 일환으로 진행했던 미니 프로젝트를 다시 끄집어냈다. 팀 프로젝트로 진행했던 작업이긴 하나 소스코드를 너무 대충 짜논 턱에 못 알아보겠는 부분도 많고, 너무 오래 전에 작업했던 내용이라 그 사이에 SKT에서 KoGPT2 version 2를 내고 카카오에서도 KoGPT 발표하고 난리가 나서 주말마다 리팩토링을 해보기로 했다.

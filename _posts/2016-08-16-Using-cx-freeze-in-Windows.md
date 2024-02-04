@@ -2,8 +2,8 @@
 layout: post
 title: "Using cx_freeze in Windows"
 date: 2016-08-16 23:01:44 +0900
-categories: python
-tags: cxfreeze
+categories: [programming, python]
+tags: [python, cx-freeze]
 ---
 
 회사에서 업무 때문에 Python(이하 파이썬)으로 작성한 스크립트를 바이너리 파일 형태로 컴파일할 필요가 있었다. 그래서 이것저것 시도를 해보다 cx_freeze라는 모듈을 알게 됐다. 회사 컴퓨터는 윈도우다보니 당연히 명령 프롬프트에서 `pip install cx_freeze` 를 입력해 해당 모듈을 설치한 다음 `cxfreeze`라는 명령어로 실행을 시키는데

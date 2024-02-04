@@ -2,8 +2,8 @@
 layout: post
 title: "Using Anaconda in Raspberry Pi 2"
 date: 2017-05-04 13:47:53 +0900
-categories: python
-tags: anaconda
+categories: [programming, python]
+tags: [python, anaconda]
 ---
 
 최근 __밑바닥부터 시작하는 딥러닝__ 이라는 책을 읽기 시작했다. 거의 모든 딥러닝 관련된 뭐시기들이 그렇지만 이 책 역시 파이썬을 기반으로 코드를 작성하고 있어서 개발환경으로 Anaconda(이하 아나콘다) 사용을 권장하고 있다. 그럼 받으면 되기는 한데 ~~분명 개발하려고 산~~ 맥북에다가 이것저것 설치하는 게 너무 싫어서 놀고 있던 라즈베리 파이[^1]를 꺼냈다. 그리고 라즈베리에다가는 Ubuntu Mate 16.04.2 LTS를 설치했다.

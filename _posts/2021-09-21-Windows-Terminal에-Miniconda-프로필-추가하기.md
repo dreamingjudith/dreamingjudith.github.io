@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Windows Terminal에 Miniconda 프로필 추가하기"
-categories: python
-tags: anaconda
+categories: [programming, python]
+tags: [python, anaconda]
 ---
 
 작년에 사내 양성과정의 일환으로 진행했던 미니 프로젝트를 마무리하기 위해 오랜만에 윈도우 노트북에 Miniconda를 깔았다. 설치 중간에 따로 `Add PATH` 옵션은 지정하지 않았는데, 막상 Anaconda Prompt를 사용하려니 너무 못 생겨서 대신 Windows Terminal을 사용하기 위해 프로필을 추가하기로 했다. 어차피 Anaconda Prompt도 cmd.exe에 activate 스크립트를 실행하는 추가 인자 정도 붙은 단축어 개념이기 때문에 이 명령줄 인자를 그대로 복사하면 되겠지.

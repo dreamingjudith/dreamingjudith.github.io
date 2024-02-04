@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "gcloud로 Google Cloud API 이용 시 응답의 한글 깨짐 해결방법"
-categories: python
+categories: [programming, python]
+tags: [python, google-cloud, gcloud]
 ---
 
 회사에서 갑자기 [Google Cloud의 Speech-to-text](https://cloud.google.com/speech-to-text) API를 쓸 일이 생겼다. 그래서 부랴부랴 SDK를 깔았다. ([SDK 설치](https://cloud.google.com/sdk/docs/downloads-apt-get){:target='_blank_'}, [SDK 초기화](https://cloud.google.com/sdk/docs/initializing){:target='_blank_'})

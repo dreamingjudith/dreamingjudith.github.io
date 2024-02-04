@@ -2,8 +2,8 @@
 layout: post
 title: "Raspberry Pi에서 Matplotlib 설치 시 required packages error"
 date: 2017-05-04 14:00:53 +0900
-categories: python
-tags: anaconda matplotlib
+categories: [programming, python]
+tags: [python, anaconda, matplotlib]
 ---
 
 얼마 전 라즈베리 파이에 Miniconda를 설치하고 나서 numpy와 matplotlib가 없음을 깨달았다. Anaconda 쓸 땐 몰랐는데, '이럴 줄 알았으면 그냥 맥북에다 설치해서 쓸 걸 그랬나' 하는 생각도 들었다. 그렇지만 모듈이야 설치하면 그만이니까! 그리고 그렇게 나는 또 다시 난관을 만났다.
